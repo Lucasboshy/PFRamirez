@@ -1,0 +1,80 @@
+/* Contacto */
+.contactoMain{
+    margin-bottom: 10px;
+    background-color: $colorSecundario;
+    display: flex;
+    flex-direction: column;
+    font-family: $fontPrincipal;
+    padding-top: 70px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    @include movil-l{
+        margin-top: 40px;
+    }
+    @include tableta{
+        margin-top: 40px;
+    }
+    input{
+        margin: 0px 0px 20px;
+        border: none;
+        outline: none;
+        background-color: $colorSecundario;
+        border-bottom: 2px solid black;
+        border-radius: 0px;
+        cursor: default;
+        transition: box-shadow 0.1s;
+        &:focus{
+            border-bottom: 2px solid black;
+            background-color: $colorSecundario;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 10px -5px, rgba(0, 0, 0, 0.3) 0px 8px 3px -8px;
+        }
+    }
+    textarea{
+        height: 340px;
+        width: 950px;
+        resize: none;
+        @include portatil{
+            height: 340px;
+            width: 700px;
+        }
+        @include movil-l{
+            width: 400px;
+        }
+        @include movil-m{
+            width: 350px;
+        }
+        @include movil-s{
+            width: 300px;
+        }
+    }
+}
+.formulario{
+    flex-wrap: nowrap;
+    @include tableta{
+        flex-direction: column;
+    }
+}
+.preguntasFrecuentes{
+    font-family: $fontSecundario;
+    h1{
+        font-style: italic;
+        color: $colorCuarto;
+        text-wrap: balance;
+        cursor: default;
+    }
+    h2{
+        text-wrap: balance;
+        color: $colorTerciario;
+        font-size: 30px;
+        font-style: oblique;
+        cursor: default;
+    }
+    p{
+        font-size: 20px;
+        cursor: default;
+    }
+    span{
+        color: $tituloEstrella;
+    }
+}

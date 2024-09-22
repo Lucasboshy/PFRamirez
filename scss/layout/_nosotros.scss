@@ -1,0 +1,29 @@
+/* Nosotros */
+.sectionNosotros{
+    background-color: $colorSecundario;
+    h1{
+        color: $colorTerciario;
+        border: 40px;
+        border-style: solid;
+        border-color: $colorCuarto;
+        text-align: center;
+        background-color: $colorCuarto;
+        margin: 69px 0px 20px 0px;
+        font-family: $fontPrincipal;
+        cursor: default;
+    }
+    h2{
+        @extend h1
+    }
+    p{
+        font-size:25px;
+        text-align: center;
+        font-family: $fontPrincipal;
+        color: $colorTerciario;
+        cursor: default;
+    }
+    img{
+        margin: 20px; 
+        border-radius:900px;
+    }
+}
