@@ -11,6 +11,9 @@
             @include movil-l{
                 margin-top: 35px;
             }
+            @include tableta{
+                margin-top: 35px;
+            }
         }
     }
     .titleProductos{

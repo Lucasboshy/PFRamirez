@@ -14,7 +14,11 @@ header nav {
   font-family: Oswald;
 }
 header .top img {
-  height: 50px;
+  height: 40px;
+  transition: height 0.1s ease-in-out;
+}
+header .top img:active {
+  height: 35px;
 }
 header .btn {
   color: #ffffff;
@@ -94,6 +98,11 @@ footer .soporte a:hover, footer .soporte header a.form-control:focus, header foo
   cursor: default;
 }
 @media screen and (max-width: 426px) {
+  .textoDestacado h1, .textoDestacado .sectionNosotros h2, .textoDestacado .sectionNosotros .maquillajeTutorial ol, .maquillajeTutorial .textoDestacado .sectionNosotros ol, .sectionNosotros .textoDestacado h2, .sectionNosotros .textoDestacado .maquillajeTutorial ol, .maquillajeTutorial .sectionNosotros .textoDestacado ol {
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
   .textoDestacado h1, .textoDestacado .sectionNosotros h2, .textoDestacado .sectionNosotros .maquillajeTutorial ol, .maquillajeTutorial .textoDestacado .sectionNosotros ol, .sectionNosotros .textoDestacado h2, .sectionNosotros .textoDestacado .maquillajeTutorial ol, .maquillajeTutorial .sectionNosotros .textoDestacado ol {
     margin-top: 35px;
   }
