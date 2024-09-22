@@ -269,6 +269,10 @@ footer .soporte a:hover, footer .soporte header a.form-control:focus, header foo
   background-color: #858585;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 10px -5px, rgba(0, 0, 0, 0.3) 0px 8px 3px -8px;
 }
+.contactoMain input:-webkit-autofill, .contactoMain input:-webkit-autofill:hover, .contactoMain input:-webkit-autofill:focus, .contactoMain input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out;
+  -webkit-text-fill-color: #000000;
+}
 .contactoMain textarea {
   height: 340px;
   width: 950px;
