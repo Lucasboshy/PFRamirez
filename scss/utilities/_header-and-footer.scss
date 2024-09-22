@@ -15,7 +15,7 @@ header{
     .top{
         img{
             height: 40px;
-            transition: height 0.1s ease-in-out;
+            transition: height 0.5s ease-in-out;
             &:active{
                 height: 35px;
             }
